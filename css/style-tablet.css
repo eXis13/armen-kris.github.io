@@ -1,0 +1,268 @@
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+    }
+
+    .mobile-menu,
+    .mobile-menu-open {
+        display: none;
+    }
+
+    /*header*/
+
+    .nav-site .link {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    .section-contacts {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-contacts .item {
+        height: 14px;
+    }
+
+    .section-contacts .link {
+        font-size: 12px;
+        line-height: 1.166;
+        letter-spacing: 0.04em;
+    }
+
+    .section-contacts>.email {
+        margin-bottom: 12px;
+    }
+
+    .wrapper-logo-nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .nav-site {
+        display: flex;
+    }
+
+    .header {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    .nav-site .link:hover,
+    .nav-site .link:focus {
+        color: var(--primary-accent-color);
+    }
+
+    .section-contacts .link:hover,
+    .section-contacts .link:focus {
+        color: var(--primary-accent-color);
+    }
+
+    .nav-site .logo {
+        line-height: 1.4;
+
+    }
+
+    .nav-site .item:not(:last-child) {
+        margin-right: 40px;
+    }
+
+    /*hero*/
+    .overlay {
+        background-image: linear-gradient(to right,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url('../img/hero-tablet.jpg');
+        max-width: 768px;
+        padding-top: 112px;
+        padding-bottom: 112px;
+    }
+
+    .hero-box {
+        text-align: center;
+    }
+
+    .hero-box>.btn {
+        font-weight: 500;
+        letter-spacing: 0.02em;
+    }
+
+    .heading-hero {
+        margin-bottom: 36px;
+        height: 120px;
+    }
+
+    /*features*/
+    .features-position>.features {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .features .title {
+        font-size: 36px;
+        line-height: 1.1;
+        text-align: left;
+    }
+
+    .section-features {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
+    .features {
+        margin: -12px;
+    }
+
+    .features>.item-features {
+        width: calc((100% - 4 * 12px) / 2);
+        margin: 12px;
+        height: 120px;
+    }
+
+    .features>.item-features:not(:nth-last-child(-n+2)) {
+        margin-bottom: 60px;
+    }
+
+    .section-service {
+        display: none;
+    }
+
+    /*descriptions*/
+    .section-description {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
+    .description .heading {
+        margin-bottom: 72px;
+    }
+
+    .teammate {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 64px;
+        justify-content: center;
+    }
+
+    .teammate>.card {
+        flex-basis: calc((100% - 24px) / 2);
+        max-width: 264px;
+        margin: 0;
+    }
+
+    .customers-company {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
+    .customers-list {
+        display: flex;
+        flex-wrap: wrap;
+        margin: -12px;
+        justify-content: space-evenly;
+    }
+
+    .customers-list>.item {
+        margin: 12px;
+    }
+
+    .customers-list .item:not(:nth-last-child(-n+3)) {
+        margin-bottom: 60px;
+    }
+
+    /*footer*/
+    .footer-box {
+        width: 264px;
+    }
+
+    .footer {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
+    .footer-content {
+        margin-bottom: 72px;
+    }
+
+    .footer-double-box {
+        width: 565px;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 24px;
+    }
+
+    .footer-input-field {
+        display: flex;
+        column-gap: 24px;
+    }
+
+    .submit-footer {
+        display: flex;
+    }
+
+    .mail {
+        width: 264px;
+        color: var(--primary-white-color);
+    }
+
+    /*Portfolio*/
+    .filter {
+        display: flex;
+        justify-content: center;
+    }
+
+    .filter .item:not(:last-child) {
+        margin-right: 24px;
+    }
+
+    .section-filter {
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+
+    .section-filter .button {
+        padding: 12px 24px;
+    }
+
+    .web-site {
+        width: 116px;
+    }
+
+    /*samples*/
+    .samples>.item {
+        width: calc((100% - 4 * 12px) / 2);
+        margin: 12px;
+        height: 420px;
+    }
+
+    .samples .item:not(:nth-last-child(-n+1)) {
+        margin-bottom: 60px;
+    }
+
+    .samples {
+        display: flex;
+        flex-wrap: wrap;
+        margin: -12px;
+    }
+
+    .thumb-overlay {
+        display: none;
+    }
+
+    .section-samples {
+        padding-bottom: 96px;
+    }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+screen and (min-resolution:192dpi) and (min-width: 768px),
+screen and(min-resolution: 2dppx) and (min-width: 768px) {
+    .overlay {
+        background-image: linear-gradient(to right,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url('../img/hero-tablet@2x.jpg');
+    }
+}
