@@ -233,7 +233,7 @@
     }
 
     .footer-content .text {
-        padding-left: 64px;
+        width: 268px;
     }
 
     .socialmedia-footer {
@@ -247,6 +247,9 @@
     }
 
     .footer-box {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
         margin-bottom: 72px;
     }
 
